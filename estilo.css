@@ -1,0 +1,133 @@
+body {
+    background: white ; 
+    padding: 0;
+    margin:0;
+    background-color: #CCDBFD;
+}
+
+.cabecalho{
+    height: 80px;
+    display: flex;
+    align-items:center;
+    background-color: #CCDBFD;
+}
+
+.sistema{
+    margin-left: 15px;
+}
+
+table{
+    width: 700px;
+    margin: 100px auto;
+    font-family:serif;
+    font-size: 20px;
+}
+
+
+thead{
+    background-color:#D7E3FC;
+
+}
+
+tbody{
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+
+.titulot{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.pesquisa input{
+    width: 20%;
+    margin-left: 5px;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* formulário*/
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+fieldset{
+    outline-color: #F1B1BD;
+}
+
+.formulario{
+    width: 400px;
+    margin: 30px auto;
+    height: 100px;
+
+}
+
+.formulario div{
+    display: flex;
+    flex-direction:column;
+    margin:10px;
+    height: 80px;
+
+}
+
+.formulario label{
+    margin: 0 0 10px
+ 
+ }
+
+
+.botao button{
+    width: 80px;
+    height: 50px;
+    margin-right: 10px;
+    background-color: #D7E3FC;
+}
+
+
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    font-size: 10px;
+       
+}
+
+
+.botao :hover{
+    background-color:#ABC4FF;   
+}
+    
+
+
+input:focus { 
+    outline: none !important;
+    border-color:#b6c6fe;
+    box-shadow: 0 0 5px #b6c6fe;
+}
+
+.esconder{
+    display: none;
+}

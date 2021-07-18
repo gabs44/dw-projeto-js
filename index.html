@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text-js" href="principal.js">
+    <title>Alunos</title>
+</head>
+    <body>
+        <header class="cabecalho">
+            <div class="sistema">
+                <h2>Sistema de notas</h2>
+            </div>
+        </header>
+        <main>
+        <section class="tabela">
+            <div class="titulot">
+                <h2>Alunos</h2>
+            </div>
+        <div class="pesquisa">
+            <label for="Busca">Busque um aluno:</label>
+            <input type="text" name="Busca" placeholder="Digite o nome do aluno" id="buscar-aluno"/>
+        </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome do aluno</th>
+                        <th>Nota 1</th>
+                        <th>Nota 2</th>
+                        <th>Nota 3</th>
+                        <th>Média Semestral</th>
+                        <th>Situação</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-aluno">
+                </tbody>
+            </table>
+        </section>
+        <section class="formulario">
+            <div class="titulo">
+                <h2>Insira os dados de um novo aluno</h2>
+            </div>
+            <form id="form-aluno">
+                <fieldset>
+                    <div>
+                        <label for="Nome"> Nome do aluno:</label>
+                        <input type="text" name="Nome" id="Nome">
+                    </div>
+
+                    <div>
+                        <label for="Nota1"> Nota 1:</label>
+                        <input type="number" name="Nota1" id="Nota1">
+                    </div>
+
+                    <div>
+                        <label for="Nota2"> Nota 2:</label>
+                        <input type="number" name="Nota2" id="Nota2">
+                    </div>
+
+                    <div>
+                        <label for="Nota3"> Nota 3:</label>
+                        <input type="number" name="Nota3" id="Nota3">
+                    </div>
+
+                    <div class="botao">
+                        <button id="adicionar-aluno">Adicionar aluno</button>
+                    </div>
+            </fieldset>
+            </form>
+        </section>
+    </main>
+    
+    <script type="text/javascript" src="form.js"></script>
+    <script type="text/javascript" src="filtro.js"></script>
+    </body>
+</html>
